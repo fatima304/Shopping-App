@@ -1,0 +1,36 @@
+
+name: laza_shop_app
+description: "Laza Shop - Flutter E-Commerce Application"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  flutter_bloc: ^9.1.1
+  dio: ^5.9.0
+  shared_preferences: ^2.5.3
+  google_fonts: ^6.3.2
+  intl: ^0.20.2
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
